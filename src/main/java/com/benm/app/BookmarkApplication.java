@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookmarkApiWebServiceApplication {
+public class BookmarkApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BookmarkApiWebServiceApplication.class, args);
+	public static void main( String[] args ) {
+		SpringApplication.run( BookmarkApplication.class, args );
 	}
 }
