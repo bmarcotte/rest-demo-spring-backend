@@ -17,7 +17,13 @@ public class Bookmark {
 
     public Bookmark( String name, String url ) {
         this.name = name;
-        this.url = url;
+        this.url  = url;
+    }
+
+    public Bookmark( Long id, String name, String url ) {
+        this.id   = id;
+        this.name = name;
+        this.url  = url;
     }
 
     @Override
