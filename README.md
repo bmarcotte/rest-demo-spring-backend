@@ -1,4 +1,4 @@
-# rest-demo-spring-backend
+# REST demo: Spring backend
 A simple demonstration of a RESTful web service in Java + Spring
 
 This repository implements a REST web service for managing a simple database of bookmarks.  Each bookmark consists of
@@ -60,6 +60,11 @@ mvn test
 For details on how to do more extensive functional endpoint testing of this backend web service, please see the
 following documentation in my [rest-demo](https://github.com/bmarcotte/rest-demo) project repository:
 * [TESTING.md](https://github.com/bmarcotte/rest-demo/blob/master/TESTING.md)
+
+## Note
+
+The other backend applications in the REST Demo project all use SQLite for their database, but this backend
+uses an embedded H2 database instead, as it was better supported by Hibernate.
 
 ## Author
 
