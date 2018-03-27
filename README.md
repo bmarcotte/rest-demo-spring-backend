@@ -28,7 +28,7 @@ To request this backend specifically, make sure your docker-compose command is p
 
 For more details, please see the "Method 1" section in the README link above.
 
-### Method 2: Using Docker without docker-compsose
+### Method 2: Using Docker without docker-compose
 
 Requirements:
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - version 1.7.10 or later recommended
