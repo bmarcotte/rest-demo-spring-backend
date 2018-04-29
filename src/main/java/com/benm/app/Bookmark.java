@@ -28,9 +28,9 @@ public class Bookmark {
 
     @Override
     public String toString() {
-			return String.format(
-				"Bookmark[id=%d, name='%s', url='%s']",
-				id, name, url
-			);
+      return String.format(
+        "Bookmark[id=%d, name='%s', url='%s']",
+        id, name, url
+      );
     }
 }
